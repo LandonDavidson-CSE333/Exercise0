@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     double pi_approx = 3;
     for (int i = 1; i <= num_terms; i++) {
         // positive on odd terms and negative on even terms
-        int sign = i % 2 == 0 ? -1 : 1;
+        int sign = i % 2 ? 1 : -1;
         pi_approx += sign * 4.0 / (2 * i * (2 * i + 1) * (2 * i + 2)); // divide 4 by the product of 2i * (2i + 1) * (2i + 2)
     }
     // print pi_approx to stdout with some formatting
