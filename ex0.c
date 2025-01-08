@@ -1,8 +1,8 @@
 // Name: Landon Davidson
 // NetID: landond
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> // for printf
+#include <stdlib.h> // for strtol
 
 #define NUM_ARGS 2
 #define MIN_ARG 0
