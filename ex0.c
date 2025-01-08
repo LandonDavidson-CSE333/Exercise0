@@ -1,5 +1,5 @@
 // Name: Landon Davidson
-// NetID: landond
+// NetID: landond@uw.edu
 
 #include <stdio.h> // for printf
 #include <stdlib.h> // for strtol
