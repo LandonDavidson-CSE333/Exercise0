@@ -1,6 +1,5 @@
-//
-// Created by landond on 1/7/25.
-//
+// Name: Landon Davidson
+// NetID: landond
 
 #include <stdio.h>
 #include <stdlib.h>
