@@ -6,7 +6,9 @@
 #include <stdlib.h>
 
 int main(int argc, char** argv) {
-    // Check that input is a reasonably sized integer then store in num_terms
+    // Check there are two arguments
+    if (argc != 2) { printf("There must be one argument"); return 1;}
+    // Check that input is a reasonably sized integer and store in num_terms
     char* end;
     long int num_terms = strtol(argv[1], &end, 10);
     // if the scanner ended at the start then it didn't read any numbers and the input is invalid
